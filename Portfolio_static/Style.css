@@ -1,0 +1,102 @@
+body{
+    background-color:white;
+    
+}
+nav{
+    text-align:  right;
+}
+p.d{
+    text-align: center;
+    font-size: 50px;
+}
+p.t,p.r{
+    text-align: center;
+}
+img{
+    margin-left: 600px;
+}
+div.a{
+    background-color:slateblue ;
+}
+.text {
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+h4{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: white;
+    padding-bottom: 300px;
+}
+table,th{
+    border: 0.1px groove black;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    
+}
+th{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+h1.h1{
+    text-align: center;
+    
+}
+div.t{
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    width: 300px;
+    margin-right: 275px;
+    border:2px solid rgb(158, 158, 158);
+    
+}
+p.e{
+    color: cornflowerblue;
+    padding: 100px;
+    
+}
+div.e{
+    background-color: rgb(237, 100, 203);
+    border-radius: 8px;
+    width: 300px;
+    
+    margin-left: 290px;
+    margin-top: 10px;
+    border:2px solid rgb(158, 158, 158);
+    
+    
+    
+}
+p.q{
+    color: rgb(237, 100, 203);
+    padding: 100px;
+}
+aside {
+    
+    
+    margin-left: 15px;
+    float: right;
+    
+    
+  }
+  div.q{
+    background-color: rgb(100, 237, 141);
+    border-radius: 8px;
+    width: 300px;
+    border:2px solid rgb(158, 158, 158);
+    
+    
+    
+}
+p.w{
+    color: rgb(100, 237, 141);
+    padding: 100px;
+}
+svg{
+    color: slateblue;
+}
+
+
