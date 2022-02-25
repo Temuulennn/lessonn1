@@ -1,22 +1,82 @@
+
 body{
-    background-color:white;
+    background-color:rgba(0, 0, 0, 0.842);
+    margin: 0px;
+    animation:  5s infinite;
     
+    
+}
+@keyframes mymove{
+    50%{background-color :gray;}
 }
 nav{
     text-align:  right;
+    
+    
+    
+}
+a.q{
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+
+}
+.q:hover{
+    background-color: none;
+
+}
+
+a.q:hover{
+    background-color: transparent;
+    color:black;
+}
+a{
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 19px;
+    
+    
+    
+}
+a:hover{
+    background-color:blueviolet ;
+    color: white;
+    border-radius: 26px;
+}
+a.w{
+    background-color:rgb(99, 98, 98);
+    border-radius: 26px;
+    color: white;
+    padding-left:20px ;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+a.w:hover{
+    background-color: green;
+    
 }
 p.d{
     text-align: center;
     font-size: 50px;
+    margin-top: 150px;
+    color: antiquewhite;
 }
 p.t,p.r{
     text-align: center;
+    color: antiquewhite;
 }
 img{
-    margin-left: 600px;
+    margin-left: 550px;
 }
 div.a{
     background-color:slateblue ;
+    margin-top: ;
 }
 .text {
     text-align: center;
@@ -32,8 +92,10 @@ h4{
 }
 table,th{
     border: 0.1px groove black;
-    margin-left: 400px;
+    margin-left: 350px;
     margin-bottom: 50px;
+    color: azure;
+    
     
 }
 th{
@@ -43,13 +105,14 @@ th{
 }
 h1.h1{
     text-align: center;
+    color: azure;
     
 }
 div.t{
     background-color: cornflowerblue;
     border-radius: 8px;
     width: 300px;
-    margin-right: 275px;
+    margin-right: 240px;
     border:2px solid rgb(158, 158, 158);
     
 }
@@ -63,7 +126,7 @@ div.e{
     border-radius: 8px;
     width: 300px;
     
-    margin-left: 290px;
+    margin-left: 240px;
     margin-top: 10px;
     border:2px solid rgb(158, 158, 158);
     
@@ -73,6 +136,7 @@ div.e{
 p.q{
     color: rgb(237, 100, 203);
     padding: 100px;
+    
 }
 aside {
     
@@ -87,6 +151,8 @@ aside {
     border-radius: 8px;
     width: 300px;
     border:2px solid rgb(158, 158, 158);
+    margin-bottom: 10px;
+    
     
     
     
@@ -96,7 +162,131 @@ p.w{
     padding: 100px;
 }
 svg{
-    color: slateblue;
+    color:white;
 }
+a.r{
+    margin-left: 650px;
+    background-color: blue;
+    color: white;
+    border-radius: 16px;
+    padding: 10px;
+    
+}
+p.i{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+div.r{
+    background-color:gray ;
+    
+    height: 220px;
+     
+    
+    
+
+}
+img.q{
+    margin-left: -1px;
+    border-radius: 8px;
+}
+.v{
+    background-image: url();
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+    background-color: rgb(53, 52, 52);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: -100px;
+    z-index: 1;
+    border-radius: 30px;
+    position: relative;
+    
+}
+.column{
+    display:inline-block;
+    color: white;
+    margin-left:70px ;
+    margin-top:50px ;
+    margin-bottom: 50px;
+    
+}
+.btn{
+   border: 3px solid blueviolet;
+   border-radius: 35px;
+}
+.center{
+    background-color: rgb(53, 52, 52);
+    color: aliceblue;
+    border: none;
+    margin: 15px;
+}
+div.v{
+    background-image: url("https://www.teahub.io/photos/full/194-1941553_4k-wallpapers-for-pc-city-hd-wallpapers-for.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+
+}
+svg.o{
+    margin-top: 110px;
+    margin-left: 200px;
+}
+a.z:hover{
+    background-color: transparent;
+}
+div.footer{
+    display: inline-block;
+    margin-left: 100px;
+}
+a.foo:hover{
+    background-color: transparent;
+    
+}
+div.aboutnav{
+    background-image: url("https://www.itl.cat/pngfile/big/8-85371_hd-resolution-night-city-wallpaper-4k.jpg");
+    height: 900px;
+    background-size: cover;
+
+}
+img.me{
+    border-radius: 16px;
+    margin-left: 800px;
+    margin-top: -450px
+    
+}
+div.about{
+    margin-top: ;
+    
+    
+}
+div.hajuu{
+    width: 300px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.884);
+    margin-left: 300px;
+    margin-top: 250px
+    
+    
+}
+div.ab{
+    display:;
+    
+    
+}
+h5{
+    color: aliceblue;
+    
+
+}
+
+
+
+
+
 
 
