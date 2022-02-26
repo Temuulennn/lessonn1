@@ -1,16 +1,16 @@
-
 body{
-    background-color:rgba(0, 0, 0, 0.842);
+    background-color:rgba(0, 0, 0, 0.863);
     margin: 0px;
     animation:  5s infinite;
     
     
 }
 @keyframes mymove{
-    50%{background-color :gray;}
+    50%{background-color: rgb(163, 39, 39);}
 }
 nav{
     text-align:  right;
+    padding-top: 20px;
     
     
     
@@ -21,17 +21,22 @@ a.q{
     color: black;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 20px;
+     margin-top: -20px;
+
+    
 
 }
 .q:hover{
     background-color: none;
+    
 
 }
 
 a.q:hover{
     background-color: transparent;
     color:black;
+    padding: 0px;
+    
 }
 a{
     text-decoration: none;
@@ -44,9 +49,11 @@ a{
     
 }
 a:hover{
-    background-color:blueviolet ;
+    background-color:grey ;
     color: white;
     border-radius: 26px;
+    padding: 5px;
+    
 }
 a.w{
     background-color:rgb(99, 98, 98);
@@ -58,7 +65,7 @@ a.w{
     padding-bottom: 7px;
 }
 a.w:hover{
-    background-color: green;
+    background-color: black;
     
 }
 p.d{
@@ -75,8 +82,8 @@ img{
     margin-left: 550px;
 }
 div.a{
-    background-color:slateblue ;
-    margin-top: ;
+    background-color:gray ;
+    
 }
 .text {
     text-align: center;
@@ -109,11 +116,12 @@ h1.h1{
     
 }
 div.t{
-    background-color: cornflowerblue;
+    background-color: grey;
     border-radius: 8px;
     width: 300px;
     margin-right: 240px;
     border:2px solid rgb(158, 158, 158);
+    animation:  mymove 10s infinite;
     
 }
 p.e{
@@ -122,13 +130,14 @@ p.e{
     
 }
 div.e{
-    background-color: rgb(237, 100, 203);
+    background-color: grey;
     border-radius: 8px;
     width: 300px;
     
-    margin-left: 240px;
+    margin-left: 255px;
     margin-top: 10px;
     border:2px solid rgb(158, 158, 158);
+    animation:  mymove 10s infinite;
     
     
     
@@ -147,11 +156,12 @@ aside {
     
   }
   div.q{
-    background-color: rgb(100, 237, 141);
+    background-color:grey;
     border-radius: 8px;
     width: 300px;
     border:2px solid rgb(158, 158, 158);
     margin-bottom: 10px;
+    animation:  mymove 10s infinite;
     
     
     
@@ -166,7 +176,7 @@ svg{
 }
 a.r{
     margin-left: 650px;
-    background-color: blue;
+    background-color: gray;
     color: white;
     border-radius: 16px;
     padding: 10px;
@@ -179,6 +189,7 @@ p.i{
 
 div.r{
     background-color:gray ;
+    
     
     height: 220px;
      
@@ -238,6 +249,7 @@ svg.o{
 }
 a.z:hover{
     background-color: transparent;
+    padding: 0px;
 }
 div.footer{
     display: inline-block;
@@ -249,44 +261,80 @@ a.foo:hover{
 }
 div.aboutnav{
     background-image: url("https://www.itl.cat/pngfile/big/8-85371_hd-resolution-night-city-wallpaper-4k.jpg");
-    height: 900px;
+    height: auto;
     background-size: cover;
 
 }
 img.me{
-    border-radius: 16px;
-    margin-left: 800px;
-    margin-top: -450px
+    border-radius: 100px;
+    margin-left: 900px;
+    margin-top: -400px;
+    height:380px ;
+    width: 330px;
+    
     
 }
+
 div.about{
-    margin-top: ;
+    background-color: rgba(0, 0, 0, 0.829);
+    padding-bottom: auto;
+    padding-top: 10px;
+    margin-top: 100px;
     
     
 }
 div.hajuu{
-    width: 300px;
+    width: 600px;
     height: 370px;
-    background-color: rgba(0, 0, 0, 0.884);
-    margin-left: 300px;
-    margin-top: 250px
+    background-color: black;
+    margin-left: 100px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 25px
+
+    
     
     
 }
-div.ab{
-    display:;
-    
-    
-}
+
 h5{
-    color: aliceblue;
+    color: silver;
+    padding-top: 50px;
     
 
 }
-
-
-
-
-
-
-
+div.deed{
+    background-color: rgb(238, 235, 235);
+    height: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    
+    
+}
+div.doo{
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    display: inline-block;
+    margin: 50px;
+    margin-left: 100px;
+    border-radius: 100px;
+}
+div.dood{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+div.footerr{
+    height: 100px;
+    width: auto;
+    background-color: black;
+}
+p.l{
+    text-align: center;
+    font-family: arial;
+}
+p.z{
+    color: aliceblue;
+    font-size: small;
+    font-family: Arial;
+}
