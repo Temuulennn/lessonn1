@@ -1,3 +1,4 @@
+
 body{
     background-color:rgba(0, 0, 0, 0.863);
     margin: 0px;
@@ -19,13 +20,11 @@ a.q{
     float: left;
     text-decoration: none;
     color: black;
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     margin-top: -20px;
-
+    font-size: 20px;
     
-
+     margin-top: -30px;
 }
+
 .q:hover{
     background-color: none;
     
@@ -39,24 +38,26 @@ a.q:hover{
     
 }
 a{
-    text-decoration: none;
-    color: rgb(2, 2, 2);
+    text-decoration:none;
+    color: white;
     margin-left: 15px;
     margin-right: 15px;
-    font-size: 19px;
+    font-size: 22px;
+    font-style:oblique;
+    
     
     
     
 }
 a:hover{
-    background-color:grey ;
-    color: white;
+    
+    color: red;
     border-radius: 26px;
-    padding: 5px;
+    
     
 }
 a.w{
-    background-color:rgb(99, 98, 98);
+    
     border-radius: 26px;
     color: white;
     padding-left:20px ;
@@ -65,24 +66,39 @@ a.w{
     padding-bottom: 7px;
 }
 a.w:hover{
-    background-color: black;
-    
+    color: red;
 }
+
 p.d{
-    text-align: center;
-    font-size: 50px;
+    margin-left: 100px;
+    
     margin-top: 150px;
-    color: antiquewhite;
+    color: white;
+    font-size: 50px;   
+    font-family: georgia;
 }
-p.t,p.r{
+p.f{
+    color: white;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: -30px;
+    font-family: georgia;
+}
+p.t{
     text-align: center;
-    color: antiquewhite;
+    color: white;
+    font-size: 300px;
+    margin-left: ;
+    margin-top: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 img{
     margin-left: 550px;
 }
 div.a{
-    background-color:gray ;
+    background-color:brown;
+    width: auto;
+    height: 725px;
     
 }
 .text {
@@ -188,7 +204,7 @@ p.i{
 }
 
 div.r{
-    background-color:gray ;
+    background-color:rgba(255, 0, 64, 0.719) ;
     
     
     height: 220px;
@@ -212,10 +228,10 @@ img.q{
     background-color: rgb(53, 52, 52);
     margin-left: 200px;
     margin-right: 200px;
-    margin-bottom: -100px;
+    
     z-index: 1;
     border-radius: 30px;
-    position: relative;
+    
     
 }
 .column{
@@ -227,18 +243,18 @@ img.q{
     
 }
 .btn{
-   border: 3px solid blueviolet;
+   border: 3px solid #8a2be2;
    border-radius: 35px;
 }
 .center{
     background-color: rgb(53, 52, 52);
     color: aliceblue;
-    border: none;
+    border: ;
     margin: 15px;
 }
 div.v{
-    background-image: url("https://www.teahub.io/photos/full/194-1941553_4k-wallpapers-for-pc-city-hd-wallpapers-for.jpg");
-    height: 500px;
+    background-image: url("https://cdn.wallpapersafari.com/32/51/5cXThO.jpg");
+    height: 725px;
     background-position: center;
     background-size: cover;
 
@@ -252,17 +268,17 @@ a.z:hover{
     padding: 0px;
 }
 div.footer{
-    display: inline-block;
-    margin-left: 100px;
-}
-a.foo:hover{
-    background-color: transparent;
     
+    width: auto;
+    height: 300px;
+    background-color:#BC243C;
 }
+
 div.aboutnav{
-    background-image: url("https://www.itl.cat/pngfile/big/8-85371_hd-resolution-night-city-wallpaper-4k.jpg");
+    background-image: url("");
     height: auto;
     background-size: cover;
+    background-color: #BD3D3A;
 
 }
 img.me{
@@ -304,7 +320,7 @@ h5{
 
 }
 div.deed{
-    background-color: rgb(238, 235, 235);
+    background-color: ;
     height: 50px;
     position: -webkit-sticky;
     position: sticky;
@@ -322,7 +338,7 @@ div.doo{
 }
 div.dood{
     margin-top: 100px;
-    margin-bottom: 100px;
+    
 }
 div.footerr{
     height: 100px;
@@ -332,8 +348,8 @@ div.footerr{
 p.l{
     text-align: center;
     font-family: arial;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left:20px ;
+    margin-right: 20px;
     margin-top: 50px;
 }
 p.z{
@@ -341,3 +357,168 @@ p.z{
     font-size: small;
     font-family: Arial;
 }
+div.u{
+    background-color: rgba(0, 0, 0, 0.548);
+    height: 725px;
+    width: auto;
+    
+}
+h2.logo{
+    color:aliceblue;
+    font-family: georgia;
+}
+p.aa{
+    color: whitesmoke;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: -50px;
+}
+span{
+    color: red;
+}
+span.web{
+    font-size: 40px;
+    color: white;
+    margin-left: -40px;
+}
+h1.aa{
+    color: whitesmoke;
+    font-size: 100px;
+    margin-left: 100px;
+}
+div.aa{
+    
+}
+div.aaa{
+    
+   margin-left: 600px;
+   margin-top: -600px;
+   
+}
+img.aa{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+p.aaa{
+    color: white;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 200px;
+    margin-top: 30px;
+    font-weight: ;
+    font-size: 30px;
+    
+}
+p.aaaa{
+    color: white;
+}
+h1.fo{
+    color: wheat;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+h2.fo{
+    color: white;
+    padding-left: 50px;
+    margin-top: -40px;
+}
+p.fo{
+    color: white;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+div.foo{
+    display: inline-block;
+    margin-left: 200px;
+    padding-top: 30px;
+}
+svg.fo{
+    padding-left: 50px;
+}
+span.info{
+    color: white;
+}
+ div.right ,div.bars {
+    margin-bottom: 15px;
+
+}
+ div.right ,div.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ div.right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+div.right, div.line{
+    height: 5px;
+    width: 100%;
+    background: rgb(102, 101, 101);
+    position: relative;
+}
+div.right, div.line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: o;
+    top: 0;
+    background: lightgrey;
+}
+div.right, div.html::before{
+    width: 70%;
+}
+div.right, div.css::before{
+    width: 60%;
+}
+div.right, div.js::before{
+    width: 30%;
+}
+div.right, div.php::before{
+    width: 50%;
+}
+div.right, div.mysql::before{
+    width: 90%;
+}
+div.bars{
+    padding-left:100px ;
+    padding-right: 100px;
+}
+h1.myskill{
+    color: white;
+    text-align: center;
+    font-size: 59px;
+}
+div.column-right{
+    padding-bottom: 50px;
+    margin-bottom: -50px;
+}
+h1.myskilll{
+    color: rgba(255, 255, 255, 0.11);
+    font-size: 130px;
+    margin-top: -160px;
+    margin-left: 500px;
+}
+body.q{
+    background-color: #BD3D3A;
+}
+span.info{
+    font-size: 30px;
+}
+a.video{
+    color: black;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
