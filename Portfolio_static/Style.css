@@ -3,6 +3,7 @@ body{
     background-color:rgba(0, 0, 0, 0.863);
     margin: 0px;
     animation:  5s infinite;
+    height: auto;
     
     
 }
@@ -48,6 +49,7 @@ a{
     
     
     
+    
 }
 a:hover{
     
@@ -83,14 +85,17 @@ p.f{
     margin-left: 100px;
     margin-top: -30px;
     font-family: georgia;
+    
+    
 }
 p.t{
     text-align: center;
     color: white;
     font-size: 300px;
-    margin-left: ;
+    
     margin-top: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 img{
     margin-left: 550px;
@@ -224,16 +229,7 @@ img.q{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.contact{
-    background-color: rgb(53, 52, 52);
-    margin-left: 200px;
-    margin-right: 200px;
-    
-    z-index: 1;
-    border-radius: 30px;
-    
-    
-}
+
 .column{
     display:inline-block;
     color: white;
@@ -509,6 +505,37 @@ span.info{
 a.video{
     color: black;
 }
+body.c{
+    margin: opx;
+
+}
+div.contact{
+    background-image: url("https://www.teahub.io/photos/full/187-1873644_dark-red-rose-on-bush.jpg");
+    height: 725px;
+    background-position: center;
+    background-size: cover;
+}
+div.con{
+    background-color: rgba(0, 0, 0, 0.582);
+    height: 725px;
+    width: auto;
+}
+h1.contactt{
+    color: white;
+    margin-left: 620px;
+    font-size: 50px;
+    font-family: arial black;
+}
+label{
+    color: white;
+    margin-left: 600px;
+
+    
+}
+input{
+    
+}
+
 
 
 
