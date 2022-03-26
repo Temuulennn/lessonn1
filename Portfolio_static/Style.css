@@ -510,10 +510,11 @@ body.c{
 
 }
 div.contact{
-    background-image: url("https://www.teahub.io/photos/full/187-1873644_dark-red-rose-on-bush.jpg");
+    
     height: 715px;
     background-position: center;
     background-size: cover;
+    background-color: gray;
 }
 div.con{
     background-color: rgba(0, 0, 0, 0.726);
