@@ -17,8 +17,33 @@
 <p id="booleann">6</p>
 <p id="objectt">6</p>
 <p id="">6</p>
+<label>Name</label>
+<input id="contact" type="text" >
+<input onclick="contact" type="button" value="send"></input>
+
+<input id="numb">
+
+<input type="button" onclick="mFunction()" value="send">
+
+<p id="demo"></p>
 
 <script>
+  function mFunction() {
+  
+  let x = document.getElementById("numb").value;
+  
+  let text;
+  if ( x =="") {
+    alert("fuck you");
+  } 
+}
+  function contact(){
+  var m = document.getElementsByid("contact").value;
+  if(m = ""){
+    alert ("Name must be filled out");
+  }
+}
+
 let x = 123;
 document.getElementById("number").innerHTML =
   x+90
@@ -63,6 +88,8 @@ document.getElementById("number").innerHTML =
   return a + b;
 }
 document.getElementById("numberfunction").innerHTML = sumnumber(60, 9);
+
+
 
 </script>
 

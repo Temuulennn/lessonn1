@@ -511,13 +511,13 @@ body.c{
 }
 div.contact{
     background-image: url("https://www.teahub.io/photos/full/187-1873644_dark-red-rose-on-bush.jpg");
-    height: 725px;
+    height: 715px;
     background-position: center;
     background-size: cover;
 }
 div.con{
-    background-color: rgba(0, 0, 0, 0.582);
-    height: 725px;
+    background-color: rgba(0, 0, 0, 0.726);
+    height: 715px;
     width: auto;
 }
 h1.contactt{
@@ -526,15 +526,66 @@ h1.contactt{
     font-size: 50px;
     font-family: arial black;
 }
-label{
-    color: white;
-    margin-left: 600px;
 
+input.button{
+    padding: 10px 50px;
+    margin-top: 50px;
+    border: transparent;
+    font-size: 15px;
+}
+input.button:hover{
+    color: white;
+    background-color: orangered;
+}
+input.contact{
+    background: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid orangered;
+    width: 234px;
+    height: 40px;
+    color: white;   
+    font-size: 15px;
     
 }
-input{
+input.contact:focus{
+    outline: none;
+}
+input.w{
+    background: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid orangered;
+    width: 234px;
+    height: 40px;
+    color: white;
+    padding: 25px 25px;
+    font-size: 15px;
+}
+input.w:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: arial;
+}
+form{
+    margin-left: 600px;
     
 }
+img.cont{
+    margin-left: 150px;
+    margin-top: -500px;
+}
+img.con{
+    margin-top: -500px;
+}
+
+
+
+
 
 
 

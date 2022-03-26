@@ -16,16 +16,62 @@
             <a class="w"href="">Download CV</a> 
             
         </nav>
-        <h1 class="contactt">Contact</h1>
-        <label for="fname">Name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="fname">Email:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <label for="fname">Message:</label>
-        <input type="text">
-        <input type="submit" value="SEND">
+        
+        <h1 class="contactt">Contact me</h1>
+        <form name="myForm">
+        
+        <input id="name" class="contact" type="text"  placeholder=" Name " name="fname" pattern="[A-Za-z]+"  title="you should use letter"><br><br>
+        
+        <input id=email class="contact"type="Email"  placeholder=" Email "name="lname" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br><br>
+        
+        <input id="phone" class="contact"type="text" placeholder=" Phone "name="lname"  pattern="[0-9]+" title="you should use number"><br><br>
+        
+        <input id="message" class="w" placeholder="Enter Message Here"type="text" pattern="[0-9]+[A-Za-z]+"  title="you should use letter and number"><br><br>
+        <input onclick="contact()" class="button" type="submit" value="SEND">
+        </form>
+        <img class="cont" src="https://i.pinimg.com/564x/62/90/8d/62908d058a3c441aace449f5b2f07bfe.jpg" width="300px" height="600px">
+        <img class="con" src="https://i.pinimg.com/564x/9b/7d/29/9b7d29ec93ee4b2adbb572582627179c.jpg" width="300px" height="600px">
+        
+        
+        <hr>
+        
+        
         </div>
         </div>
+        <script>
+            function myfunction(){
+                var x = document.getElementById("name").value;
+                if(x ==""){
+                    alert("Name must be filled out");
+                }
+            }
+            function phone(){
+                var x = document.getElementById("phone").value;
+                if(x ==""){
+                    alert("Phone must be filled out");
+                }
+            }
+            function email(){
+                var x = document.getElementById("email").value;
+                if(x ==""){
+                    alert("Email must be filled out");
+                }
+            }
+            function message(){
+                var x = document.getElementById("message").value;
+                if(x ==""){
+                    alert("Message must be filled out");
+                }
+            }
+            function contact(){
+                myfunction();
+                phone();
+                message();
+                email();
+            }
+         
+
+        </script>
 
     </body>
 </html>
