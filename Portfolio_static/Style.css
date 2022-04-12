@@ -1,9 +1,9 @@
 
 body{
     background-color:rgba(0, 0, 0, 0.863);
-    margin: 0px;
-    animation:  5s infinite;
-    height: auto;
+    margin:0px;
+    animation:5s infinite;
+    height:auto;
     
     
 }
@@ -16,13 +16,14 @@ nav{
     
     
     
+    
+    
 }
 a.q{
     float: left;
     text-decoration: none;
     color: black;
     font-size: 20px;
-    
      margin-top: -30px;
 }
 
@@ -43,8 +44,11 @@ a{
     color: white;
     margin-left: 15px;
     margin-right: 15px;
-    font-size: 22px;
-    font-style:oblique;
+    font-size: 15px;
+    
+    font-family: arial;
+    text-transform: uppercase;
+    
     
     
     
@@ -53,7 +57,7 @@ a{
 }
 a:hover{
     
-    color: red;
+    color: orangered;
     border-radius: 26px;
     
     
@@ -68,7 +72,7 @@ a.w{
     padding-bottom: 7px;
 }
 a.w:hover{
-    color: red;
+    color: orangered;
 }
 
 p.d{
@@ -77,31 +81,37 @@ p.d{
     margin-top: 150px;
     color: white;
     font-size: 50px;   
-    font-family: georgia;
+    font-family: arial;
+    text-transform: uppercase;
 }
 p.f{
     color: white;
     font-size: 50px;
     margin-left: 100px;
     margin-top: -30px;
-    font-family: georgia;
+    font-family: arial;
+    text-transform: uppercase;
     
     
 }
 p.t{
     text-align: center;
     color: white;
-    font-size: 300px;
+    font-size: 150px;
     
-    margin-top: 80px;
+    margin-top: 30px;
+    margin-left: -550px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: arial  black;
+    text-transform: uppercase;
+    
     
 }
 img{
     margin-left: 550px;
 }
 div.a{
-    background-color:brown;
+    background-color:rgb(32, 29, 29);
     width: auto;
     height: 725px;
     
@@ -159,6 +169,7 @@ div.e{
     margin-top: 10px;
     border:2px solid rgb(158, 158, 158);
     animation:  mymove 10s infinite;
+    
     
     
     
@@ -245,11 +256,10 @@ img.q{
 .center{
     background-color: rgb(53, 52, 52);
     color: aliceblue;
-    border: ;
     margin: 15px;
 }
 div.v{
-    background-image: url("https://cdn.wallpapersafari.com/32/51/5cXThO.jpg");
+    background-image: url("https://www.teahub.io/photos/full/20-207472_color-burst-3.jpg?fbclid=IwAR22Q_6jt1-rJ1UHCk5nb_RcOecdAgF6lrr2XNZeOVjmWeQkfjVVdvBsMSg");
     height: 725px;
     background-position: center;
     background-size: cover;
@@ -267,14 +277,15 @@ div.footer{
     
     width: auto;
     height: 300px;
-    background-color:#BC243C;
+    background-color:#2653d9;
+    margin-bottom: -50px;
 }
 
 div.aboutnav{
     background-image: url("");
     height: auto;
     background-size: cover;
-    background-color: #BD3D3A;
+    
 
 }
 img.me{
@@ -304,6 +315,7 @@ div.hajuu{
     border-radius: 50px;
     font-size: 25px
 
+
     
     
     
@@ -316,7 +328,6 @@ h5{
 
 }
 div.deed{
-    background-color: ;
     height: 50px;
     position: -webkit-sticky;
     position: sticky;
@@ -360,8 +371,9 @@ div.u{
     
 }
 h2.logo{
-    color:aliceblue;
-    font-family: georgia;
+    color:white;
+    font-family: arial;
+    text-transform: uppercase;
 }
 p.aa{
     color: whitesmoke;
@@ -370,20 +382,25 @@ p.aa{
     margin-top: -50px;
 }
 span{
-    color: red;
+    color: blue;
+}
+span.q{
+    color: orangered;
+}
+span.w{
+    color: purple;
+
 }
 span.web{
     font-size: 40px;
     color: white;
-    margin-left: -40px;
+    margin-left: -20px;
+    color: white;
 }
 h1.aa{
     color: whitesmoke;
     font-size: 100px;
     margin-left: 100px;
-}
-div.aa{
-    
 }
 div.aaa{
     
@@ -396,12 +413,12 @@ img.aa{
     margin-top: 50px;
 }
 p.aaa{
-    color: white;
-    text-align: center;
+    color: rgba(255, 255, 255, 0.685);
+    text-align: left;
     padding-left: 90px;
     padding-right: 200px;
     margin-top: 30px;
-    font-weight: ;
+    font-family:arial;
     font-size: 30px;
     
 }
@@ -409,7 +426,7 @@ p.aaaa{
     color: white;
 }
 h1.fo{
-    color: wheat;
+    color: white;
     text-align: center;
     padding-top: 50px;
     font-size: 50px;
@@ -419,6 +436,7 @@ h2.fo{
     padding-left: 50px;
     margin-top: -40px;
 }
+
 p.fo{
     color: white;
     margin-left: 40px;
@@ -496,9 +514,7 @@ h1.myskilll{
     margin-top: -160px;
     margin-left: 500px;
 }
-body.q{
-    background-color: #BD3D3A;
-}
+
 span.info{
     font-size: 30px;
 }
@@ -514,7 +530,7 @@ div.contact{
     height: 715px;
     background-position: center;
     background-size: cover;
-    background-color: gray;
+    background-color: black;
 }
 div.con{
     background-color: rgba(0, 0, 0, 0.726);
@@ -523,7 +539,7 @@ div.con{
 }
 h1.contactt{
     color: white;
-    margin-left: 620px;
+    margin-left: 800px;
     font-size: 50px;
     font-family: arial black;
 }
@@ -573,16 +589,39 @@ input.w:focus{
     font-family: arial;
 }
 form{
-    margin-left: 600px;
+    margin-left: 800px;
+    position: relative;
+    z-index: 1;
     
 }
 img.cont{
-    margin-left: 150px;
-    margin-top: -500px;
+    margin-left: 0px;
+    margin-top: -700px;
 }
 img.con{
-    margin-top: -500px;
+    margin-top: -300px;
+    position: absolute;
+    margin-left: 250px;
 }
+div.cv{
+    color: white;
+    background-color: blue;
+    margin-top: -125px;
+    width: 150px;
+    margin-left: 100px;
+    font-family: arial;
+    padding: 10px;
+}
+div.cv:hover{
+    
+    color: white;
+    background-color: orangered;
+}
+a.s:hover{
+    color: white;
+}
+
+
 
 
 
