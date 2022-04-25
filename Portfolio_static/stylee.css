@@ -33,6 +33,7 @@ svg{
     
     font-family: arial;
     text-transform: uppercase;
+    
 }
 .navbar-light .navbar-nav .nav-link:hover{
     color: orangered;
@@ -40,6 +41,7 @@ svg{
 }
 .navbar-light .navbar-nav .nav-link.active{
     color: white;
+    
 }
 .navbar-light .navbar-nav .nav-link.active:hover{
     color: orangered;
@@ -269,6 +271,29 @@ body{
       margin-left: 150px;
     }
   }
+@media only screen and (max-width:600px){
+    footer.footer{
+        height: 400px;
+    }
+}
+@media only screen and (max-width:1200px){
+    footer.footer{
+        height: 400px;
+    }
+}
+@media only screen and (max-width:900px){
+    div.foo{
+        margin-left: 0px;
+    }
+}
+table{
+    background-color: white;
+}
+@media only screen and (max-width:900px){
+    h1.myskilll{
+        margin-left: 0px;
+    }
+}
 
 
 
