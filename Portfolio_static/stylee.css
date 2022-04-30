@@ -1,20 +1,41 @@
 span.q{
     color: blue;
+    animation: mymove 4s infinite;
 }
 span.w{
     color: orangered;
+    animation: color 4s infinite;
 }
 span.e{
     color: purple;
+    animation: logo 4s infinite;
 }
 .navbar-light .navbar-brand {
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:sans-serif;
     text-transform: uppercase;
     font-size: 20px;
     
     
 }
+.navbar-brand {
+    color: white;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+    
+    
+    
+}
+.log{
+    
+    padding-top: 50px;
+    width: 195px;
+    border-radius: 87px;
+    
+}
+
 .navbar-light .navbar-brand:hover {
     color: white;
 }
@@ -63,7 +84,7 @@ div.v{
 
 }
 div.u{
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: rgba(0, 0, 0, 0.548);
     height: 725px;
     width: auto;
     
@@ -96,16 +117,16 @@ div.t{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-family: arial  black;
     text-transform: uppercase;
+    animation: t 3s infinite;
+    font-style:italic;
     
 }
 span.web{
     font-size: 40px;
     color: white;
-    
-    padding-top: px;
-    margin-left: px;
-    font-family: arial  black;
+    font-family:arial black;
     text-transform: uppercase;
+    animation: web 4s infinite;
 }
 div.cv{
     color: white;
@@ -137,21 +158,23 @@ div.a{
 }
 h1.aa{
     color: whitesmoke;
-    font-size: 100px;
+    font-size: 80px;
     margin-left: 100px;
+    padding-top: 90px;
+    
 }
 p.aa{
     color: whitesmoke;
     margin-left: 100px;
-    font-size: 20px;
+    font-size: 30px;
     
 }
 p.aaa{
     color: rgba(255, 255, 255, 0.685);
     text-align: left;
-    padding-left: 90px;
-    padding-right: 100px;
-    margin-top: 30px;
+    text-align: justify;
+    justify-content:center;
+    
     font-family:arial;
     font-size: 30px;
     
@@ -159,6 +182,9 @@ p.aaa{
 img.aa{
     margin-left: 50px;
     margin-top: 100px;
+    border-radius: 30px;
+    
+    
 }
 div.skill{
     background-color:rgb(0, 0, 0);
@@ -194,13 +220,13 @@ div.right, div.line::before{
     background: orangered;
 }
 div.right, div.html::before{
-    width: 70%;
+    width: 90%;
 }
 div.right, div.css::before{
-    width: 60%;
+    width: 80%;
 }
 div.right, div.js::before{
-    width: 30%;
+    width: 70%;
 }
 div.right, div.php::before{
     width: 50%;
@@ -228,6 +254,9 @@ h1.myskilll{
     margin-top: -130px;
     margin-left: 430px;
 }
+div.myskill{
+    margin-top: 80px;
+}
 
 span.info{
     font-size: 30px;
@@ -242,13 +271,17 @@ footer.footer{
 h1.fo {
     color: white;
     text-align: center;
-    padding-top: 50px;
+    margin-top: -45px;
     font-size: 50px;
 }
 div.foo{
     display: inline-block;
     margin-left: 200px;
     padding-top: 30px;
+}
+div.n{
+    margin-top: 20px;
+    color: black;
 }
 h2.fo{
     color: white;
@@ -273,12 +306,12 @@ body{
   }
 @media only screen and (max-width:600px){
     footer.footer{
-        height: 400px;
+        height: 430px;
     }
 }
 @media only screen and (max-width:1200px){
     footer.footer{
-        height: 400px;
+        height: 450px;
     }
 }
 @media only screen and (max-width:900px){
@@ -286,14 +319,123 @@ body{
         margin-left: 0px;
     }
 }
-table{
-    background-color: white;
+.table{
+    color: white;
+    
+    
 }
 @media only screen and (max-width:900px){
     h1.myskilll{
         margin-left: 0px;
     }
 }
+@media only screen and (max-width:900px){
+    img.aa{
+        margin-left: 0px;
+    }
+}
+@keyframes mymove{
+    50%{color: orangered;}
+}
+@keyframes color{
+    50%{color: blue;}
+}
+@keyframes logo{
+    50%{color:deeppink;}
+}
+@keyframes t{
+    50%{font-style: italic;}
+}
+h2.q{
+    background-color: black;
+    border-radius: 18px;
+    padding: 5px;
+}
+@keyframes footer{
+    50%{background-color: blue;}
+}
+@keyframes cv{
+    50%{background-color: orangered;}
+}
+footer.footer{
+    animation:footer 5s infinite ;
+    margin-top: 100px;
+}
+div.cv{
+    animation: cv 4s infinite;
+}
+@keyframes web{
+    50%{font-size: 50px;}
+    
+    50%{color:orangered;}
+    
+
+}
+h1.contactt{
+    color: white;
+    
+    font-size: 50px;
+    font-family: arial black;
+    margin-top: 50px;
+}
+
+input.button{
+    padding: 10px 50px;
+    margin-top: 50px;
+    border: transparent;
+    font-size: 15px;
+}
+input.button:hover{
+    color: white;
+    background-color: orangered;
+}
+input.contact{
+    background: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid orangered;
+    width: 234px;
+    height: 40px;
+    color: white;   
+    font-size: 15px;
+    
+}
+input.contact:focus{
+    outline: none;
+}
+input.w{
+    background: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid orangered;
+    width: 234px;
+    height: 40px;
+    color: white;
+    padding: 25px 25px;
+    font-size: 15px;
+}
+input.w:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: arial;
+}
+form{
+    
+    position: relative;
+    z-index: 1;
+    
+}
+.img-fluid{
+    
+    max-width:;
+}
+
+
+
 
 
 

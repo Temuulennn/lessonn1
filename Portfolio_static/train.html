@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DynamicTable</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+<!-- https://jsonplaceholder.typicode.com/ -->
+
+</head>
+	<body>
+		<table class="table">
+			<thead>
+			  <tr>
+				<th scope="col">#</th>
+				<th scope="col">First</th>
+				<th scope="col">Last</th>
+				<th scope="col">Handle</th>
+				<th scope="col">Handle</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<th scope="row">1</th>
+				<td>Mark</td>
+				<td>Otto</td>
+				<td>@mdo</td>
+				<td>@mdo</td>
+			  </tr>
+			  <tr>
+				<th scope="row">2</th>
+				<td>Jacob</td>
+				<td>Thornton</td>
+				<td>@fat</td>
+				<td>@fat</td>
+			  </tr>
+			  <tr>
+				<th scope="row">3</th>
+				<td colspan="">Larry the Bird</td>
+				<td>@twitter</td>
+				<td>@twitter</td>
+				<td>@twitter</td>
+			  </tr>
+			  Skip to content
+			  Search or jump to…
+			  Pull requests
+			  Issues
+			  Marketplace
+			  Explore
+			   
+			  @Temuulennn 
+			  Boldmaass
+			  /
+			  Dynamic-Content
+			  Public
+			  Code
+			  Issues
+			  Pull requests
+			  Actions
+			  Projects
+			  Wiki
+			  Security
+			  Insights
+			  Dynamic-Content/dynamicCard.html
+			  @Boldmaass
+			  Boldmaass Add files via upload
+			  Latest commit eddbb2d 3 days ago
+			   History
+			   1 contributor
+			  184 lines (151 sloc)  6.04 KB
+				 
+			  <!DOCTYPE html>
+			  <html>
+			  <head>
+				  <meta charset="UTF-8">
+				  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+				  <title>DynamicCard</title>
+				  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+				  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+			  
+			  <!-- https://jsonplaceholder.typicode.com/ -->
+			  
+			  <style type="text/css">
+			  #multiCard{
+					  display: flex;
+					  flex-direction: row;
+					  justify-content: space-between;
+				  }
+			  </style>
+			  
+			  </head>
+				  <body>
+					  <div class="container">
+						  <div class="row">
+							  <h3>Static Card</h3>
+							  <div class="card" style="width: 18rem;">
+								<img src="img/img1.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+								  <h5 class="card-title">Card title</h5>
+								  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								  <a href="#" class="btn btn-primary">Go somewhere</a>
+								</div>
+							  </div>
+							  <div class="card" style="width: 18rem;">
+								<img src="img/img2.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+								  <h5 class="card-title">Card title</h5>
+								  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								  <a href="#" class="btn btn-primary">Go somewhere</a>
+								</div>
+							  </div>
+							  <div class="card" style="width: 18rem;">
+								<img src="img/img3.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+								  <h5 class="card-title">Card title</h5>
+								  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								  <a href="#" class="btn btn-primary">Go somewhere</a>
+								</div>
+							  </div>
+						  </div>
+			  
+						  <div class="row">
+							  <h3>Single Dynamic Card</h3>
+							  <div id="cardDivContainer"></div>
+						  </div>
+			  
+						  <div class="row">
+							  <h3>Multiple Dynamic Card</h3>
+							  <div id="multiCard"></div>
+						  </div>
+					  </div>
+			  
+					  <script>
+						  var myCard = [
+							  {
+								  "title": "Card title 1",
+								  "image": "img/img1.jpg",
+								  "parag": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+								  "button": "Go somewhere"
+							  },
+							  {
+								  "title": "Card title 2",
+								  "image": "img/img2.jpg",
+								  "parag": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+								  "button": "Go somewhere"
+							  },
+							  {
+								  "title": "Card title 3",
+								  "image": "img/img3.jpg",
+								  "parag": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+								  "button": "Go somewhere"
+							  }
+						  ]
+			  
+						  singleDynamicCard();
+			  
+						  function singleDynamicCard(argument) {
+							  //Creating html div and adding class to it
+							  var card = document.createElement("div");
+							  card.classList.add("card");
+							  card.style.width = '18rem';
+			  
+							  //Creating img tag
+							  var img = document.createElement("img");
+							  img.src = myCard[0].image;
+							  img.classList.add('card-img-top');
+							  card.appendChild(img);
+			  
+							  //Creating div card-body
+							  var cardBody = document.createElement("div");
+							  cardBody.classList.add("card-body");
+							  card.appendChild(cardBody);
+			  
+							  //Creating h5 card-title
+							  var cardTitle = document.createElement("h5");
+							  cardTitle.classList.add("card-title");
+							  cardTitle.innerHTML = myCard[0].title;
+							  cardBody.appendChild(cardTitle);
+			  
+							  //Creating p card-text
+							  var cardText = document.createElement("p");
+							  cardText.classList.add("card-text");
+							  cardText.innerHTML = myCard[0].parag;
+							  cardBody.appendChild(cardText);
+			  
+							  //Creating a btn btn-primary
+							  var button = document.createElement("a");
+							  button.href = 'link';
+							  button.classList.add("btn");
+							  button.classList.add("btn-primary");
+							  button.innerHTML = myCard[0].button;
+							  cardBody.appendChild(button);
+			  
+							  var cardDivContainer = document.getElementById("cardDivContainer");
+							  cardDivContainer.appendChild(card);
+						  }
+			  
+						  multiDynamicCard();
+			  
+						  function multiDynamicCard(){
+			  
+							  for(i=0; i<myCard.length; i++){
+			  
+								  //Creating html div and adding class to it
+								  var card = document.createElement("div");
+								  card.classList.add("card");
+								  card.style.width = '18rem';
+			  
+								  //Creating img tag
+								  var img = document.createElement("img");
+								  img.src = myCard[i].image;
+								  img.classList.add('card-img-top');
+								  card.appendChild(img);
+			  
+								  //Creating div card-body
+								  var cardBody = document.createElement("div");
+								  cardBody.classList.add("card-body");
+								  card.appendChild(cardBody);
+			  
+								  //Creating h5 card-title
+								  var cardTitle = document.createElement("h5");
+								  cardTitle.classList.add("card-title");
+								  cardTitle.innerHTML = myCard[0].title;
+								  cardBody.appendChild(cardTitle);
+			  
+								  //Creating p card-text
+								  var cardText = document.createElement("p");
+								  cardText.classList.add("card-text");
+								  cardText.innerHTML = myCard[0].parag;
+								  cardBody.appendChild(cardText);
+			  
+								  //Creating a btn btn-primary
+								  var button = document.createElement("a");
+								  button.href = 'link';
+								  button.classList.add("btn");
+								  button.classList.add("btn-primary");
+								  button.innerHTML = myCard[0].button;
+								  cardBody.appendChild(button);
+			  
+								  var multiCard = document.getElementById("multiCard");
+								  multiCard.appendChild(card);
+			  
+							  }
+			  
+							  
+						  }
+			  
+						  
+			  
+					  </script>
+			  
+				  </body>
+			  </html>
+			  
+			  © 2022 GitHub, Inc.
+			  Terms
+			  Privacy
+			  Security
+			  Status
+			  Docs
+			  Contact GitHub
+			  Pricing
+			  API
+			  Training
+			  Blog
+			  About
+			  Loading complete
