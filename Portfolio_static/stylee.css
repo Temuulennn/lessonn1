@@ -325,6 +325,11 @@ body{
         margin-left: 0px;
     }
 }
+@media only screen and (max-width:1200px){
+    div.love{
+        margin-top: 300px;
+    }
+}
 .table{
     color: white;
     
@@ -438,6 +443,9 @@ form{
 .img-fluid{
     
     max-width:;
+}
+h1.love{
+    color: aliceblue;
 }
 
 
